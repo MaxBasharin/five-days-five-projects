@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея из карточек</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <h1>Этапы разработки сайта </h1>
+    </header>
+    <div class="wrapper__slider">
+      <div class="slide active"
+        style="
+        background-image: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');">
+        <span class="num">&#8544;</span>
+        <div class="wrapper__text">
+          <h3>Интервью</h3>
+          <ol type="I" class="list">
+            <li>Консультация с заказчиком</li>
+            <li>Заполнение брифа</li>
+            <li>Обсуждение проекта, <a class="link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSexCJeLB1Golf9jFAfGJpSyQlJjTNsull8sbtdve2VnbFiGFg/viewform?usp=sf_link">пример
+                моего интервью</a></li>
+            <li>Подготовка коммерческого предложения</li>
+            <li>Подписание договора</li>
+            <li>Составление технического задания</li>
+          </ol>
+        </div>
+      </div>
+      <div class="slide"
+        style="
+        background-image: url('https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');">
+        <span class="num">&#8545;</span>
+        <div class="wrapper__text">
+          <h3>Дизайн</h3>
+          <ol type="I" class="list">
+            <li>Погружение в задачу</li>
+            <li>Исследование</li>
+            <li>Продумываение сценариев</li>
+            <li>Создание дизайн фреймворка</li>
+            <li>Поиск визуального стиля</li>
+            <li>Дизайн макетов в <a class="link" href="https://www.figma.com/">figma</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="slide" style="
+          background-image: url('https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');
+        ">
+        <span class="num">&#8546;</span>
+        <div class="wrapper__text">
+          <h3>Верстка</h3>
+          <ol type="I" class="list">
+            <li>Инициализация проекта, подключение сборщика (<a class="link" href="https://gulpjs.com/">gulp</a> & <a
+                class="link" href="https://webpack.js.org/">webpack</a>)</li>
+            <li>Импорт картинок из макета и подключение шрифтов</li>
+            <li>HTML разметка всех секция и блоков, добавление стилей с помощью CSS</li>
+            <li>Адаптация сайта под различные устройства</li>
+            <li>Проверка сайта в
+              <a class="link" href="http://validator.w3.org">валидаторе</a>, исправление ошибок
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="slide" style="
+          background-image: url('https://images.unsplash.com/photo-1587150011803-07da1a83a4e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+        ">
+        <span class="num">&#8547;</span>
+        <div class="wrapper__text">
+          <h3>Интерактивность</h3>
+          <ol type="I" class="list">
+            <li>Определить какие функции необходимо реализовать</li>
+            <li>Подключить при необходимости фреймворк <a class="link" href="https://jquery.com/">jQuery</a> или другие
+            </li>
+            <li>Написание скриптов</li>
+            <li>Тестирование работы скриптов</li>
+            <li>*Для кроссбраузерности сайта использовать <a class="link" href="https://babeljs.io/">babel</a>*</li>
+          </ol>
+        </div>
+      </div>
+      <div class="slide" style="
+          background-image: url('https://images.unsplash.com/photo-1600267165477-6d4cc741b379?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        ">
+        <span class="num">&#8548;</span>
+        <div class="wrapper__text">
+          <h3>Натяжка на CMS</h3>
+          <ol type="I" class="list">
+            <li>Перенести все файлы из архива шаблона например на <a class="link"
+                href="https://ru.wordpress.org/">wordpress</a></li>
+            <li>Выбор и установка шаблона или создание своего</li>
+            <li>Натсройка темы</li>
+            <li>Установка плагинов и подключение аналитики <a class="link" href="https://metrika.yandex.ru/">яндекс
+                метрика</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="slide" style="
+          background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80');
+        ">
+        <span class="num">&#8549;</span>
+        <div class="wrapper__text">
+          <h3>Продвижение и реклама</h3>
+          <ol type="I" class="list">
+            <li>Добавить сайт в <a class="link" href="https://business.yandex.ru/sprav/index">Яндекс.Справочник</a>, <a
+                class="link" href="https://www.google.ru/intl/ru_ru/business/">Google Мой бизнес</a>, <a class="link"
+                href="https://2gis.ru/">2gis</a></li>
+            <li>Выполнить регистрацию компании на сайтах работы <a class="link" href="hh.ru">hh.ru</a> <a class="link"
+                href="rabota.ru">rabota.ru</a> <a class="link" href="job.ru">job.ru</a> <a class="link"
+                href="superjob.ru">superjob.ru</a></li>
+            <li>Выполнить регистрация на отзовиках
+              <a class="link" href="http://irecommend.ru/">http://irecommend.ru/</a>
+              <a class="link" href="http://otzovik.com/">http://otzovik.com/</a>
+              <a class="link" href="http://spasibovsem.ru/">http://spasibovsem.ru/</a>
+              <a class="link" href="http://otzyvy.pro/">http://otzyvy.pro/</a>
+              <a class="link" href="http://tutux.ru/">http://tutux.ru/</a>
+            </li>
+            <li>Сделать анализ своего продукта, ЦА и конкурентов</li>
+            <li>Тестирование проекта</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "five-days-five-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxBasharin/five-days-five-projects.git"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxBasharin/five-days-five-projects/issues"
+  },
+  "homepage": "https://github.com/MaxBasharin/five-days-five-projects#readme"
+}
