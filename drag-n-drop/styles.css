@@ -1,0 +1,114 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0ebf8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  -webkit-box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: -webkit-gradient(linear, left top, right top, from(#ff85e4), color-stop(179.25%, #229efd));
+  background: -o-linear-gradient(left, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+  background: -o-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+  background: -webkit-gradient(linear, left top, right top, from(#84fab0), to(#8fd3f4));
+  background: -o-linear-gradient(left, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 5px solid rgb(123, 213, 255);
+}
+
+.hide {
+  display: none;
+
+}
+
+.hovered {
+  border-top: 2px solid rgb(38, 16, 241);
+}
